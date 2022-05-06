@@ -1,10 +1,10 @@
 {
-	"id": "obsidian-sample-plugin",
-	"name": "Sample Plugin",
+	"id": "code-embed",
+	"name": "Code Embed",
 	"version": "1.0.1",
 	"minAppVersion": "0.12.0",
-	"description": "This is a sample plugin for Obsidian. This plugin demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
+	"description": "Embedding your code files (files like xx.c xx.hs xx.cpp)  into your note just like pdf files. I personally think this is useful for taking competitive-coding notes (on ICPC, Codeforces, ... etc.).",
+	"author": "Y-jiji",
+	"authorUrl": "https://github.com/Y-jiji",
 	"isDesktopOnly": false
 }
