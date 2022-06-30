@@ -1,1 +1,4 @@
-/* just ... nothing */
+/* Make sure the file embed shows up in live preview */
+.code-embed .markdown-preview-view {
+  display: block;
+}
