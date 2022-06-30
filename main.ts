@@ -29,8 +29,8 @@ export default class CodeEmbed extends Plugin {
                     const fname = elem.attributes.getNamedItem('alt').value;
                     /* suffix for file name */
                     const suffix = fname.split('.').pop();
-                    if (suffix.match(/(c)|(cpp)|(js)|(hs)/) == null) continue;
-                    console.log(suffix.match(/(c)|(cpp)|(js)|(hs)/));
+                    if (suffix.match(/(c)|(cpp)|(js)|(hs)|(py)/) == null) continue;
+                    console.log(suffix.match(/(c)|(cpp)|(js)|(py)/));
                     /* get file link from file name (with obsidian api) */
                     const flink = this.app.metadataCache
                         .getFirstLinkpathDest(fname, '');
